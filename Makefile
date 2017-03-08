@@ -3,3 +3,7 @@ init:
 
 test:
 	nosetests tests
+
+coverage:
+	coverage run sample/core.py
+	coverage report -m
